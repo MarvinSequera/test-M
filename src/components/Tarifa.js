@@ -8,10 +8,7 @@ class Tarifa extends Component {
         super(props)
         this.state = {}
     }
-    updateInfo = () => {
-        console.log("hola")
-    }
-    compornentDidMount = () => this.updateInfo()
+
     render() {
         return (
             <Container>
